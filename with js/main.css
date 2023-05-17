@@ -95,13 +95,17 @@ ul li:first-child{
 }
 @media (max-width:585px) {
     .list{
-        width: 100%;
+        width: 80%;
         background-color: #444;
         display: flex;
-        max-width: none;
+        flex-wrap: wrap;
+        min-width: 400px;
+
     }
     .left ul, .right ul{
         margin-bottom: 30px;
-        width: 100% !important;
+    }
+    .left , .right{
+        width: 100%;
     }
 }
